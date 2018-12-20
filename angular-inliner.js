@@ -1,4 +1,4 @@
-#!/bin/node
+#!/usr/bin/env node
 
 //imports
 const path = require('path'),
