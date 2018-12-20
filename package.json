@@ -1,0 +1,24 @@
+{
+  "name": "angular-inliner",
+  "version": "1.0.2",
+  "description": "This package allows you to inline html css and scss component resources so that you can package compiled angular code easier. This allows you to keep those resource files external from the component.ts while still js that has the resources your code needs to function",
+  "main": "angular-inliner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "angular-inliner": "./angular-inliner.js"
+  },
+  "keywords": [
+    "angular",
+    "inline",
+    "resource"
+  ],
+  "author": "Collin Vincent",
+  "license": "MIT",
+  "dependencies": {
+    "clean-css": "^4.2.1",
+    "html-minifier": "^3.5.21",
+    "node-sass": "^4.11.0"
+  }
+}
